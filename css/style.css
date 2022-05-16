@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes degradeAnimado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+body{
+    background-image: linear-gradient(to left, #a6fffb, #dab9f5, #ff8cf1);
+    background-size: 500% 100%;
+    animation: degradeAnimado 2.5s  infinite alternate;
+}
+
+.teste1 {
+    border: 1px solid red;
+}
+
+.textosSite {
+    background: rgba(0, 0, 0, 0.062);
+    border-radius: 45px;
+    text-align: center;
+}
+
+.imagemCartao {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.sobreOBeneficio {
+    border-radius: 45px;
+}
+
+.imgSobreOBeneficio {
+    background-image: url("../imagens/pegadasPng.png") ;
+    position: absolute;
+    display: flex;
+    opacity: 0.1;
+}
+
+.sobreOBeneficioTexto {
+    font-size: 1.3rem;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+@media (max-width: 896px)
+
+{
+
+}
